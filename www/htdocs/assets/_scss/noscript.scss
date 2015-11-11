@@ -1,0 +1,15 @@
+/*
+# noscript.css
+JavaScriptが無効の時に読み込まれるCSSです。
+
+```
+<noscript>
+<link rel="stylesheet" href="/core/css/noscript.css">
+</noscript>
+```
+*/
+
+@charset "utf-8";
+
+@import "compass";
+

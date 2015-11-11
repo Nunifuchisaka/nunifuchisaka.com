@@ -1,0 +1,53 @@
+/*
+# Container
+*/
+
+
+
+/*
+## .l-container-1
+*/
+
+.l-container-1 {
+  width: $site-width - 80px;
+  margin: 20px auto;
+  padding: 40px;
+  background: #fff;
+  border: 1px solid #ddd;
+  box-shadow: 2px 2px 0 #eee;
+  border-radius: 5px;
+  @include legacy-pie-clearfix;
+}
+
+.l-container-1__primary {
+  float: right;
+  width: 620px;
+}
+
+.l-container-1__secondary {
+  float: left;
+  width: 240px;
+}
+
+
+@media screen and ( max-width: $site-width ) {
+  
+  .l-container-1 {
+    margin: 10px 10px;
+    width: auto;
+    padding: 20px;
+  }
+  
+  .l-container-1__primary {
+    float: none;
+    width: auto;
+  }
+  
+  .l-container-1__secondary {
+    float: none;
+    width: auto;
+    margin-top: 20px;
+  }
+  
+}
+

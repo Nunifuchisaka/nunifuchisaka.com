@@ -1,0 +1,22 @@
+/*
+# Article
+*/
+
+
+
+/*
+## .article-1
+*/
+
+.article-1 {
+  //margin: 20px 0 0;
+  padding: 20px 0;
+  border-bottom: 1px dotted #999;
+  &:first-of-type {
+    border-top: 1px dotted #999;
+  }
+}
+
+.article-1__contents {
+  
+}

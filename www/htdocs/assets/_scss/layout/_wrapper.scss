@@ -1,0 +1,24 @@
+/*
+# ラッパー
+*/
+
+
+
+/*
+## #wrapper
+*/
+
+.l-wrapper-1 {
+  width: $site-width;
+  margin: 0 auto;
+}
+
+
+@media screen and ( max-width: $site-width ) {
+  
+  .l-wrapper-1 {
+    width: 100%;
+  }
+  
+}
+
