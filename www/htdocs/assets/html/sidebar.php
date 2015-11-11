@@ -24,6 +24,9 @@
       <a href="http://ikazok.net/users/3189">イカナカマ</a>
     </li>
     <li class="list-1__item">
+      E-Mail：<a href="mailto:nunifuchisaka@gmail.com">nunifuchisaka@gmail.com</a>
+    </li>
+    <li class="list-1__item">
       Skype：nunifuchisaka
     </li>
     <li class="list-1__item">
