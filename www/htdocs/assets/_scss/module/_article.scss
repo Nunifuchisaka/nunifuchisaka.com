@@ -18,5 +18,19 @@
 }
 
 .article-1__contents {
-  
+  p {
+    margin-top: 1em;
+    text-indent: 1em;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  figure {
+    margin-top: 1em;
+    figcaption {
+      margin-top: .5em;
+      font-size: $px12;
+    }
+  }
 }
