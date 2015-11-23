@@ -59,6 +59,110 @@ require_once('assets/html/header.php');
     
     <article class="article-1">
       <header class="header-1">
+        <h1 class="header-1__h1">キャプチャボードなるものを購入いたしました</h1>
+        <p class="header-1__date">2015.11.22</p>
+      </header>
+      <div class="article-1__contents">
+        <p>購入いたしましたのは <strong>Elgato Game Capture HD60</strong> というもの。こちら設定とか管理画面とかものすんごく簡単で大変満足しているのですが、ゲームをプレイするほうのテレビに0.1秒ほどの<strong>遅延</strong>・<strong>ラグ</strong>があるので、もしご購入を考えている方はご注意ください…。<strong>パススルー</strong>とはいったいなんだったのか…(´・ω・`) HDMI分配器を買い足すか…。</p>
+        <p>ということで数戦してだんだん慣れてきましたので、ガチマッチを録画してみました。<br />ひとつめ：<a href="https://youtu.be/HkWRJkAVxPY">https://youtu.be/HkWRJkAVxPY</a><br />ふたつめ：<a href="https://youtu.be/WCUo0Re0844">https://youtu.be/WCUo0Re0844</a></p>
+        <div class="movie-1">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/HkWRJkAVxPY" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <div class="movie-1">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/WCUo0Re0844" frameborder="0" allowfullscreen></iframe>
+        </div>
+      </div>
+    </article>
+    
+    <article class="article-1">
+      <header class="header-1">
+        <h1 class="header-1__h1">タッグマッチ</h1>
+        <p class="header-1__date">2015.11.18</p>
+      </header>
+      <div class="article-1__contents">
+        <p>今日はしろーさん、きーな。さん、ひいらさんとタッグマッチをしました(*´ω｀*)<br />ヒラメとキンメダイのホコだったので苦手ステージだったけど、最後の20分くらいはそこそこ動けたかなと思います。やっぱり僕は慎重すぎるのはだめだなーと思いました。ホコ運びで2回貢献できたのが嬉しかったー！(>ω<)<br />みんながっつり守ってくれたので僕は運んでるだけだったけど！(*´∀｀*)<br />そしてふたりともフレンドになってくれてとっても嬉しいです(´；ω；｀)</p>
+        <p>その後にゆきさんに合流してミルねーさんとまたたびさんもいて今日も楽しいガチナワバリができました。特にゆきさんが敵のことが多くて、めっちゃ狙…積極的に会いに行ったのでガチンコな撃ち合いがたくさんできてすごく楽しかったー(*´∀｀*) 今日はだいぶ満足して寝れそうです。おやすみなさい( ˘ω˘)ｽﾔｧ</p>
+        <figure>
+          <img src="img/20151118-1.jpeg" alt="" width="520" height="330">
+          <figcaption>しろーさんといっしょ</figcaption>
+        </figure>
+        <figure>
+          <img src="img/20151118-2.jpeg" alt="" width="520" height="330">
+          <figcaption>きーな。さんといっしょ</figcaption>
+        </figure>
+        <figure>
+          <img src="img/20151118-3.jpeg" alt="" width="520" height="330">
+          <figcaption>ひいらさんといっしょ</figcaption>
+        </figure>
+        <figure>
+          <img src="img/20151118-4.jpg" alt="" width="1024" height="576">
+          <figcaption>きーな。さんが撮ってくれたぬにふちさか。格好いい！ありがとうございます(>ω<)</figcaption>
+        </figure>
+      </div>
+    </article>
+    
+    <article class="article-1">
+      <header class="header-1">
+        <h1 class="header-1__h1">ガチナワバリ</h1>
+        <p class="header-1__date">2015.11.16</p>
+      </header>
+      <div class="article-1__contents">
+        <p>今日はけろさん、せつなさん、ひいらさんとキンメダイを散歩したり、3対1をやったりすごく楽しかった！そのあとすぐフレンドさんだけのガチナワバリが始まって、激アツですごく楽しかった！ひさしぶりに.52ガロンで活き活きと動けたかな〜♪最近キンメダイで負けまくったから今S76だけど、絶不調でも頑張って奮闘し続けた分、少しは強くなれたかな〜？いや、モンガラが動きやすいだけかな〜。</p>
+        <p>ダイナモはほんと横の判定がすごーく薄くなっちゃって「え！？今殴ったよね！？」ってことがあってびっくりしたけど、真正面捉えればちょっと距離あっても持っていけるから強いな〜。</p>
+        <p>早く動画を撮れる環境を作りたいな〜。…文章にまとまりがないｗゴメンナサイ！</p>
+        <figure>
+          <img src="img/20151116-1.jpeg" alt="" width="800" height="450">
+          <figcaption>商店街仕事したあああああ！かわいいいいい！！<br />イヤーマフ厳選します。</figcaption>
+        </figure>
+      </div>
+    </article>
+    
+    <article class="article-1">
+      <header class="header-1">
+        <h1 class="header-1__h1">SGさんとぬにふちさか</h1>
+        <p class="header-1__date">2015.11.15</p>
+      </header>
+      <div class="article-1__contents">
+        <figure>
+          <img src="img/20151115-1.jpeg" alt="" width="520" height="330">
+          <figcaption>姉妹みたいだったので記念にパシャリ！<br />ラバーソールかわいい。</figcaption>
+        </figure>
+        <figure>
+          <img src="img/20151115-2.jpeg" alt="" width="520" height="330">
+          <figcaption>見つめ合うふたり。一体なにがはじまるのか！？</figcaption>
+        </figure>
+        <figure>
+          <img src="img/20151115-3.jpeg" alt="" width="520" height="330">
+          <figcaption>どうなってしまうのかー！？（オチはありません）</figcaption>
+        </figure>
+        <figure>
+          <img src="img/20151115-4.jpeg" alt="" width="800" height="450">
+          <figcaption>エチゼンくんありがとうおおおお！</figcaption>
+        </figure>
+      </div>
+    </article>
+    
+    <article class="article-1">
+      <header class="header-1">
+        <h1 class="header-1__h1">はじめてのキンメダイ</h1>
+        <p class="header-1__date">2015.11.14</p>
+      </header>
+      <div class="article-1__contents">
+        <p>キンメダイ美術館楽しい！<br />ひとりでガチマやってたらあまりにボロ負けするので、ゆきさんに練習タッグマッチをお付き合いいただきました٩(๑òωó๑)۶ すごく楽しかったし結構勝てた！ダイナモで塗ってセンサーしてるだけでゆきさんが倒していってくれたｗありがとうございました(≧▽≦)</p>
+        <p>キンメダイは.52ガロンよりダイナモのほうがいいかなー？って感じ。<br />スプリンクラーがめっちゃ強かった！他のステージよりも塗勝つことが大事かなー？慣れてないだけかなー？</p>
+        <figure>
+          <img src="img/20151114-1.jpeg" alt="" width="800" height="450">
+          <figcaption>ゆきさんとタッグマッチ記念ヾ(｡&#62;ω&#60;｡)ﾉﾞ✧*。</figcaption>
+        </figure>
+        <figure>
+          <img src="img/20151114-2.jpeg" alt="" width="800" height="450">
+          <figcaption>第8回フェスは海の幸派で参ります</figcaption>
+        </figure>
+      </div>
+    </article>
+    
+    <article class="article-1">
+      <header class="header-1">
         <h1 class="header-1__h1">.52ガロンを眺めるイカちゃん</h1>
         <p class="header-1__date">2015.11.13</p>
       </header>
