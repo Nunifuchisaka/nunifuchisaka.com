@@ -8,7 +8,7 @@
 
 <!-- MEMO：イカやりたい -->
 
-<title>日刊ぬにふちさか</title>
+<title>ほぼ日刊ぬにふちさか</title>
 <meta name="description" content="自己紹介とか日記を書いていこうと思います。">
 <meta name="keywords" content="Splatoon">
 <meta name="author" content="nii.splatoon@gmail.com">
@@ -49,7 +49,7 @@ require_once('assets/html/header.php');
 
 <header class="l-header-1">
   <h1 class="l-header-1__h1">
-    <a href="/">日刊ぬにふちさか</a>
+    <a href="/">ほぼ日刊ぬにふちさか</a>
   </h1>
 </header>
 
