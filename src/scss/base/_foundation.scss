@@ -10,7 +10,9 @@ body {
   -webkit-text-size-adjust: 100%;
   -webkit-font-smoothing: subpixel-antialiased; //antialiased;
   height: 100%;
-  font: 14px/1.4 $font-family;
+  font: 14px/1.6 $font-family;
+  color: #fff;
+  background-color: #222;
 }
 
 hr {
@@ -22,14 +24,14 @@ img {
 }
 
 a {
-  
+  color: $color2;
   &:hover {
-    
+    text-decoration: none;
   }
 }
 
 strong {
-  
+  font-weight: bold;
 }
 
 em {

@@ -3,13 +3,15 @@
 */
 
 .g-nav-1 {
-  
+  max-width: $site-width;
+  margin: 20px auto 0;
 }
 
 .g-nav-1__items {
-  
-}
-
-.g-nav-1__item {
-  
+  display: table;
+  & > li {
+    display: table-cell;
+    padding: 0 1em;
+    vertical-align: middle;
+  }
 }

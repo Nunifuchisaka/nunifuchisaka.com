@@ -1,0 +1,20 @@
+/*
+## .aside-1
+*/
+
+.aside-1 {
+  position: relative;
+  padding: 24px 20px 0;
+  border-top: solid 20px #222;
+  font-size: $px12;
+}
+
+@media screen and ( min-width: $breakpoint-2 ) {
+  
+  .aside-1 {
+    margin: 0;
+    padding: 0;
+    border-top: 0;
+  }
+  
+}

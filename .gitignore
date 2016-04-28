@@ -8,16 +8,11 @@ Thumbs.db
 *.psd
 *.sketch
 
-/release.zip
-/release/
-
 /gitignore/
-
-/design/
-
 
 # wordpress
 
 /dst/wp/*
 !/dst/wp/wp-blog-header.php
 !/dst/wp/wp-content/themes/*
+/dst/wp/wp-content/themes/index.php

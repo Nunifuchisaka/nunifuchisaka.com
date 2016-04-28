@@ -1,0 +1,50 @@
+/*
+## .article-1
+*/
+
+.article-1 {
+  position: relative;
+}
+
+.article-1__header {
+  padding: 0 20px;
+}
+
+.article-1__h1 {
+  font-size: $px18;
+}
+
+.article-1__time {
+  margin-bottom: 4px;
+  padding: 0 20px;
+}
+
+.article-1__eyecatch {
+  margin-top: 20px;
+  text-align: center;
+  background-color: #222;
+  img {
+    max-width: 100%;
+    width: auto;
+    height: auto;
+  }
+}
+
+.article-1__content {
+  padding: 14px 20px 20px;
+  p {
+    margin: 1em 0 0;
+  }
+  iframe {
+    max-width: 100%;
+  }
+}
+
+
+@media screen and ( min-width: $breakpoint-1 ) {
+  
+  .article-1__h1 {
+    font-size: $px24;
+  }
+  
+}

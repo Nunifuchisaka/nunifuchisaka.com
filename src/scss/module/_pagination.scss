@@ -1,0 +1,31 @@
+/*
+## .pagination-1
+*/
+
+.pagination-1 {
+  position: relative;
+  margin-top: 24px;
+  text-align: center;
+  a.page-numbers,
+  .current {
+    display: inline-block;
+    margin: 0 2px;
+    padding: 2px 8px;
+    border: solid 1px #ccc;
+    background: #fff;
+    text-decoration: none;
+  }
+  .current{
+    color: #fff;
+    background: #000;
+    border: solid 1px #000;
+  }
+}
+
+.pagination__items {
+  
+}
+
+.pagination__item {
+  
+}

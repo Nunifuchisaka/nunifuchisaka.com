@@ -1,0 +1,56 @@
+/*
+## .section-1
+*/
+
+.section-1 {
+  position: relative;
+  margin: 1em 0;
+  padding: 1em;
+  border-top: dotted 1px #333;
+  @include legacy-pie-clearfix;
+  &:first-of-type {
+    margin-top: 0;
+    padding-top: 0;
+    border-top: 0;
+  }
+  &:last-of-type {
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+}
+
+.section-1__inner {
+  display: block;
+  color: $color1;
+  text-decoration: none;
+  @include legacy-pie-clearfix;
+  &:hover {
+    @include opacity(.7);
+  }
+}
+
+.section-1__1 {
+  text-align: center;
+}
+
+.section-1__2 {
+  padding: 1em 0 0;
+}
+
+.section-1__contents {
+  margin-top: 1em;
+}
+
+
+@media screen and ( min-width: $breakpoint-1 ) {
+  
+  .section-1__1 {
+    float: left;
+  }
+  
+  .section-1__2 {
+    overflow: hidden;
+    padding: 0 0 0 20px;
+  }
+  
+}

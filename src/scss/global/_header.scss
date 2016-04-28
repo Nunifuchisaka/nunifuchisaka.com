@@ -3,5 +3,42 @@
 */
 
 .g-header-1 {
-  
+  position: relative;
+  padding: 24px 0;
+}
+
+.g-header-1__inner {
+  position: relative;
+  max-width: $site-width;
+  margin: 0 auto;
+}
+
+.g-header-1__title {
+  text-align: center;
+  a {
+    color: #fff;
+    text-decoration: none;
+    &:hover {
+      color: lighten($color2, 10%);
+      text-decoration: none;
+    }
+  }
+}
+
+.g-header-1__h1__main {
+  display: inline-block;
+  font-size: 24px;
+  text-align: center;
+  font-family: 'Rock Salt', cursive;
+  /*
+  em {
+    color: lighten($color2, 10%);
+  }
+  */
+}
+
+.g-header-1__h1__sub {
+  display: inline-block;
+  margin-top: .5em;
+  color: #eee;
 }
