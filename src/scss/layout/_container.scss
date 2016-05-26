@@ -17,7 +17,10 @@
 @media screen and ( min-width: $breakpoint-2 ) {
   
   .l-container-2 {
+    display: -webkit-flex;
     display: flex;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
     max-width: $site-width;
     margin: 0 auto;
   }

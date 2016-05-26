@@ -50,6 +50,27 @@ gulp.task('js_common_compile', function() {
 });
 
 
+gulp.task('js_stat_compile', function() {
+  gulp.src([
+      'src/js/stat/110_header.js',
+      'src/js/stat/200_MC.js',
+      'src/js/stat/400_View.js',
+      'src/js/stat/800_app.js',
+      'src/js/stat/990_footer.js'
+    ])
+    .pipe(plumber())
+    .pipe(sourcemaps.init())
+    .pipe(concat('stat.js'))
+    .pipe(gulp.dest(path.theme + '/assets/js'))
+    .pipe(uglify({preserveComments: 'some'}))
+    .pipe(rename({suffix: '.min'}))
+    .pipe(gulp.dest(path.theme + '/assets/js'))
+    .pipe(sourcemaps.write())
+    .pipe(rename({suffix: '.sourcemap'}))
+    .pipe(gulp.dest(path.theme + '/assets/js'));
+});
+
+
 gulp.task('functions_compile', function() {
   gulp.src([
       'src/functions/100_init.php',
@@ -65,5 +86,6 @@ gulp.task('functions_compile', function() {
 gulp.task('watch', function(){
   gulp.watch('src/scss/**/*.scss', ['compass_compile']);
   gulp.watch('src/js/common/**/*.js', ['js_common_compile']);
+  gulp.watch('src/js/stat/**/*.js', ['js_stat_compile']);
   gulp.watch('src/functions/**/*.php', ['functions_compile']);
 });

@@ -25,10 +25,16 @@ function nunifuchisaka_enqueue_script() {
   
   wp_enqueue_script( 'lodash', '//cdnjs.cloudflare.com/ajax/libs/lodash.js/4.11.2/lodash.min.js' );
   
-  wp_enqueue_script( 'nunifuchisaka_common', $tdu.'/assets/js/common.js', array('lodash', 'jquery') );
-  
   wp_deregister_script( 'jquery' );
   wp_enqueue_script( 'jquery', '//ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js' );
+  
+  wp_enqueue_script( 'backbone', '//cdnjs.cloudflare.com/ajax/libs/backbone.js/1.3.3/backbone-min.js', array('lodash', 'jquery') );
+  
+  wp_enqueue_script( 'nunifuchisaka_common', $tdu.'/assets/js/common.js', array('lodash', 'jquery', 'backbone') );
+  
+  if ( is_page('stat') ) {
+    wp_enqueue_script( 'nunifuchisaka_stat', $tdu.'/assets/js/stat.min.sourcemap.js', array('backbone') );
+  }
 }
 
 

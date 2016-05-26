@@ -44,10 +44,7 @@
 @import "layout/wrapper",
         "layout/container";
 
-#contents {
-  color: $color1;
-  padding: 24px 0;
-  background-color: #f5f8fa;
-}
+@import "unique/contents",
+        "unique/primary";
 
 @import "state/state";
