@@ -9,6 +9,9 @@ STAT.View = Backbone.View.extend({
     
     this.collection.fetch({
       url: 'https://stat.ink/api/v1/battle?screen_name=nunifuchisaka',
+      data: {
+        count: 100
+      },
       success: this.render
     });
     
@@ -22,6 +25,8 @@ STAT.View = Backbone.View.extend({
     }).join('');
     
     this.$el.html(html);
+    this.$(".js-stat_fancybox-1").fancybox();
+    
     return this;
   }
   
