@@ -1,4 +1,39 @@
 /*
+## .l_container_3
+*/
+
+.l_container_3 {
+  position: relative;
+  @at-root {
+    #{&}__1 {
+      
+    }
+    #{&}__2 {
+      margin-top: 20px;
+    }
+  }
+}
+
+@media screen and ( min-width: $breakpoint-2 ) {
+  
+  .l_container_3 {
+    
+    @at-root {
+      #{&}__1 {
+        float: left;
+      }
+      #{&}__2 {
+        overflow: hidden;
+        margin-top: 0;
+        padding-left: 20px;
+      }
+    }
+  }
+  
+}
+
+
+/*
 ## .l-container-2
 */
 
