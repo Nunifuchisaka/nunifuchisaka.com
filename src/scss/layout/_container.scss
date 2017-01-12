@@ -39,14 +39,11 @@
 
 .l-container-2 {
   position: relative;
-}
-
-.l-container-2__1 {
-  
-}
-
-.l-container-2__2 {
-  padding: 20px 0 0;
+  @at-root {
+    #{&}__2 {
+      padding: 20px 0 0;
+    }
+  }
 }
 
 @media screen and ( min-width: $breakpoint-2 ) {
@@ -58,11 +55,15 @@
     justify-content: space-between;
     max-width: $site-width;
     margin: 0 auto;
-  }
-  
-  .l-container-2__2 {
-    width: 240px;
-    padding: 0 0 0 40px;
+    @at-root {
+      #{&}__1 {
+        max-width: 720px;
+      }
+      #{&}__2 {
+        width: 240px;
+        padding: 0 0 0 40px;
+      }
+    }
   }
   
 }

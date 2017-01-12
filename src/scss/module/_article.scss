@@ -11,7 +11,7 @@
 }
 
 .article-1__h1 {
-  font-size: $px18;
+  font-size: $px24;
 }
 
 .article-1__time {
@@ -32,11 +32,51 @@
 
 .article-1__content {
   padding: 14px 20px 20px;
+  h2 {
+    font-size: $px18;
+    font-weight: bold;
+    margin: 1.5em 0 0;
+  }
+  h3 {
+    font-size: $px16;
+    font-weight: bold;
+    margin: 1em 0 0;
+  }
+  h4, h5, h6 {
+    font-weight: bold;
+  }
   p {
     margin: 1em 0 0;
   }
   iframe {
     max-width: 100%;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    border: solid 1px #eceff1;
+  }
+  thead {
+    tr {
+      background-color: #eceff1;
+    }
+  }
+  tbody {
+    tr {
+      &:nth-of-type(even){
+        background-color: #eceff1;
+      }
+    }
+  }
+  th, td {
+    padding: 10px;
+  }
+  th {
+    
+  }
+  td {
+    
   }
 }
 
