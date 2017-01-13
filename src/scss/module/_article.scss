@@ -32,17 +32,28 @@
 
 .article-1__content {
   padding: 14px 20px 20px;
+  a {
+    &:hover {
+      img {
+        @include opacity(.7);
+      }
+    }
+  }
   h2 {
     font-size: $px18;
     font-weight: bold;
-    margin: 1.5em 0 0;
+    margin: 2em 0 0;
   }
   h3 {
     font-size: $px16;
     font-weight: bold;
+    margin: 1.5em 0 0;
+  }
+  h4 {
+    font-weight: bold;
     margin: 1em 0 0;
   }
-  h4, h5, h6 {
+  h5, h6 {
     font-weight: bold;
   }
   p {
@@ -50,6 +61,20 @@
   }
   iframe {
     max-width: 100%;
+  }
+  
+  ul {
+    margin: 1.5em 0;
+    padding-left: 1.5em;
+    list-style: outside disc;
+  }
+  ol {
+    margin: 1.5em 0;
+    padding-left: 1.5em;
+    list-style: outside decimal;
+  }
+  li {
+    margin-top: .7em;
   }
   
   table {
@@ -76,6 +101,10 @@
     
   }
   td {
+    
+  }
+  
+  blockquote:not([class="twitter-tweet"]) {
     
   }
 }
