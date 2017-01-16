@@ -34,10 +34,10 @@
 
 
 /*
-## .l-container-2
+## .l_container_2
 */
 
-.l-container-2 {
+.l_container_2 {
   position: relative;
   @at-root {
     #{&}__2 {
@@ -46,9 +46,9 @@
   }
 }
 
-@media screen and ( min-width: $breakpoint-2 ) {
+@media screen and ( min-width: $breakpoint-3 ) {
   
-  .l-container-2 {
+  .l_container_2 {
     display: -webkit-flex;
     display: flex;
     -webkit-justify-content: space-between;
@@ -71,21 +71,21 @@
 
 
 /*
-## .l-container-1
+## .l_container_1
 */
 
-.l-container-1 {
+.l_container_1 {
   display: block;
   margin: 0 auto;
   @include legacy-pie-clearfix;
 }
 
-.l-container-1__1 {
+.l_container_1__1 {
   float: left;
   display: block;
 }
 
-.l-container-1__2 {
+.l_container_1__2 {
   float: right;
   display: block;
 }

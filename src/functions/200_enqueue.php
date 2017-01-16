@@ -15,10 +15,17 @@ add_editor_style( $tdu . '/assets/css/editor-style.css' );
 */
 
 function nunifuchisaka_enqueue_style() {
+  $td = get_template_directory();
   $tdu = get_template_directory_uri();
   wp_enqueue_style( 'nunifuchisaka_webfont', '//fonts.googleapis.com/css?family=Rock+Salt' );
   wp_enqueue_style( 'fancybox', $tdu.'/assets/lib/fancybox/jquery.fancybox.css' );
-  wp_enqueue_style( 'nunifuchisaka_common', $tdu.'/assets/css/common.css', array('nunifuchisaka_webfont') );
+  //wp_enqueue_style( 'nunifuchisaka_common', $tdu.'/assets/css/common.css', array('nunifuchisaka_webfont') );
+  wp_enqueue_style(
+    'nunifuchisaka_common',
+    $tdu.'/assets/css/common.css',
+    array('nunifuchisaka_webfont'),
+    filemtime( $td.'/assets/css/common.css' )
+  );
 }
 
 function nunifuchisaka_enqueue_script() {

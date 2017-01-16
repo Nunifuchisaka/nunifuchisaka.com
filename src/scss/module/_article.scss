@@ -42,18 +42,19 @@
   h2 {
     font-size: $px18;
     font-weight: bold;
-    margin: 2em 0 0;
+    margin: 3em 0 0;
   }
   h3 {
     font-size: $px16;
     font-weight: bold;
-    margin: 1.5em 0 0;
+    margin: 2em 0 0;
   }
   h4 {
     font-weight: bold;
-    margin: 1em 0 0;
+    margin: 1.5em 0 0;
   }
   h5, h6 {
+    margin-top: 1em;
     font-weight: bold;
   }
   p {
@@ -105,7 +106,36 @@
   }
   
   blockquote:not([class="twitter-tweet"]) {
-    
+    position: relative;
+    margin-top: 1em;
+    padding: 20px 44px;
+    background-color: #ddd;
+    z-index: 1;
+    &:before, &:after {
+      font-size: 6em;
+      font-family: "ＭＳ Ｐゴシック",sans-serif;
+      line-height: 1em;
+      color: #fff;
+      position: absolute;
+      z-index: -1;
+    }
+    &:before {
+      content: "“";
+      left: 5px;
+      top: 0;
+    }
+    &:after {
+      content: "”";
+      right: 5px;
+      bottom: -0.5em;
+    }
+    p {
+      margin-top: 0;
+    }
+  }
+  
+  .crayon-theme-github {
+    margin: 1em 0 !important;
   }
 }
 
