@@ -49,12 +49,13 @@
 @media screen and ( min-width: $breakpoint-3 ) {
   
   .l_container_2 {
-    display: -webkit-flex;
-    display: flex;
+    //display: -webkit-flex;
+    //display: flex;
     -webkit-justify-content: space-between;
     justify-content: space-between;
     max-width: $site-width;
     margin: 0 auto;
+    /*
     @at-root {
       #{&}__1 {
         max-width: 720px;
@@ -64,6 +65,7 @@
         padding: 0 0 0 40px;
       }
     }
+    */
   }
   
 }
