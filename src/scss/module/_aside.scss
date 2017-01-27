@@ -1,35 +1,42 @@
 /*
-## .aside-2
+## .aside_2
 */
 
-.aside-2 {
+.aside_2 {
   position: relative;
   margin: 1em 0 0;
 }
 
-.aside-2__h1 {
+.aside_2__h1 {
   font-weight: bold;
 }
 
 
 
 /*
-## .aside-1
+## .aside_1
 */
 
-.aside-1 {
+.aside_1 {
   position: relative;
-  padding: 24px 20px 0;
-  border-top: solid 20px #222;
   font-size: $px12;
+  @include legacy-pie-clearfix;
+  @at-root {
+    #{&}__1 {
+      float: left;
+    }
+    #{&}__2 {
+      overflow: hidden;
+      padding-left: 20px;
+    }
+  }
 }
 
 @media screen and ( min-width: $breakpoint-2 ) {
   
-  .aside-1 {
+  .aside_1 {
     margin: 0;
     padding: 0;
-    border-top: 0;
   }
   
 }
